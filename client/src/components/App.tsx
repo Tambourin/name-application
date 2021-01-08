@@ -8,8 +8,9 @@ const containerStyle = {
   maxWidth: "500px",
   padding: "1em",
   background: "grey",
-  backgroundImage: 'url("https://image.freepik.com/free-vector/geometric-grey-background_1055-3147.jpg")'
-}
+  backgroundImage: 
+    'url("https://image.freepik.com/free-vector/geometric-grey-background_1055-3147.jpg")'
+};
 
 const App = () => {  
   const [ showAll, setShowAll ] = useState<Boolean>(true);
@@ -25,6 +26,9 @@ const App = () => {
       :
         <SearchName />
       }
+      <footer>
+        <hr />Olavi Hartonen <a href="https://github.com/Tambourin">https://github.com/Tambourin</a>
+      </footer>
     </div>
   );
 };
